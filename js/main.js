@@ -1,7 +1,6 @@
 var letter = prompt('Enter a letter:');
 
-document.write(letter);
-
-for (letter = 1; letter < 10; letter++ ) {
-  letter + "<br>"
+for (i = 0; i < 10; i++) {
+  document.write('a');
+  document.write('<br>');
 }
